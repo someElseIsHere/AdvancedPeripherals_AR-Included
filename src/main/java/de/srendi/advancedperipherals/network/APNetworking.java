@@ -1,6 +1,9 @@
 package de.srendi.advancedperipherals.network;
 
 import de.srendi.advancedperipherals.AdvancedPeripherals;
+import de.srendi.advancedperipherals.network.argoggles.ClearHudCanvasMessage;
+import de.srendi.advancedperipherals.network.argoggles.RequestHudCanvasMessage;
+import de.srendi.advancedperipherals.network.argoggles.UpdateHudCanvasMessage;
 import de.srendi.advancedperipherals.network.base.IPacket;
 import de.srendi.advancedperipherals.network.toclient.ToastToClientPacket;
 import net.minecraft.core.BlockPos;
@@ -29,6 +32,10 @@ public class APNetworking {
 
     public static void init() {
         registerServerToClient(ToastToClientPacket.class, ToastToClientPacket::decode);
+
+        registerServerToClient(ClearHudCanvasMessage.class, ClearHudCanvasMessage::decode);
+        registerClientToServer(RequestHudCanvasMessage.class, RequestHudCanvasMessage::decode);
+        registerServerToClient(UpdateHudCanvasMessage.class, UpdateHudCanvasMessage::decode);
     }
 
     public static <MSG extends IPacket> void registerServerToClient(Class<MSG> packet, Function<FriendlyByteBuf, MSG> decode) {

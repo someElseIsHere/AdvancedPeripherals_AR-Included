@@ -19,6 +19,7 @@ public class BlockEntityTypes {
     public static final RegistryObject<BlockEntityType<BlockReaderEntity>> BLOCK_READER = Registration.TILE_ENTITIES.register("block_reader", () -> new BlockEntityType<>(BlockReaderEntity::new, Sets.newHashSet(Blocks.BLOCK_READER.get()), null));
     public static final RegistryObject<BlockEntityType<GeoScannerEntity>> GEO_SCANNER = Registration.TILE_ENTITIES.register("geo_scanner", () -> new BlockEntityType<>(GeoScannerEntity::new, Sets.newHashSet(Blocks.GEO_SCANNER.get()), null));
     public static final RegistryObject<BlockEntityType<ColonyIntegratorEntity>> COLONY_INTEGRATOR = Registration.TILE_ENTITIES.register("colony_integrator", () -> new BlockEntityType<>(ColonyIntegratorEntity::new, Sets.newHashSet(Blocks.COLONY_INTEGRATOR.get()), null));
+    public static final RegistryObject<BlockEntityType<ARControllerEntity>> AR_CONTROLLER = Registration.TILE_ENTITIES.register("ar_controller", () -> new BlockEntityType<>(ARControllerEntity::new, Sets.newHashSet(Blocks.AR_CONTROLLER.get()), null));
 
     public static final RegistryObject<BlockEntityType<NBTStorageEntity>> NBT_STORAGE = Registration.TILE_ENTITIES.register("nbt_storage", () -> new BlockEntityType<>(NBTStorageEntity::new, Sets.newHashSet(Blocks.NBT_STORAGE.get()), null));
 

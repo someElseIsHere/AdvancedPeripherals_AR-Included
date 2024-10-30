@@ -1,4 +1,8 @@
 {
+  "block.advancedperipherals.ar_controller": "AR Controller",
+  "advancements.advancedperipherals.ar_toolkit": "AR-ready!",
+  "advancements.advancedperipherals.ar_toolkit.description": "Collect items, that are required to use the AR features. Now you decide, how reality looks like",
+  "item.advancedperipherals.ar_goggles": "AR Goggles",
   "advancedperipherals.name": "Advanced Peripherals",
   "advancements.advancedperipherals.base_toolkit": "Gentleman's set!",
   "advancements.advancedperipherals.base_toolkit.description": "Collect a redstone integrator, inventory manager and energy detector. How did you even play without this?",

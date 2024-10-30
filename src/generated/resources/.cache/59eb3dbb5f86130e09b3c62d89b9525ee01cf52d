@@ -1,4 +1,5 @@
-// 1.20.1	2024-06-09T00:04:43.7599744	Loot Tables
+// 1.20.1	2024-10-30T19:48:42.161709492	Loot Tables
+12f8e1123193f3ead6c85d54605c99adb02230e2 data/advancedperipherals/loot_tables/blocks/ar_controller.json
 fdf4d9f8220d3a5207f8e4334bff2f06cd203b04 data/advancedperipherals/loot_tables/blocks/block_reader.json
 8c3dba853066f5f8da0a27b0783e68fc33e8bebc data/advancedperipherals/loot_tables/blocks/chat_box.json
 123a8a096d78070f9aa3e872b0cb34cbc458f595 data/advancedperipherals/loot_tables/blocks/colony_integrator.json
